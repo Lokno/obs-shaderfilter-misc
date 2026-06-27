@@ -2,7 +2,7 @@
 
 ## About
 
-[obs-shaderfilter](https://obsproject.com/forum/resources/obs-shaderfilter.1736/) is a plugin for applying user-defined shaders to sources in OBS. This is a repository of shaders I've written. 
+[obs-shaderfilter](https://obsproject.com/forum/resources/obs-shaderfilter.1736/) is a plugin for applying user-defined shaders to sources in OBS. This is a repository of shaders I've created.
 
 - [Audio Fade](#audio-fade) - Slowly fades in an OBS Source when an audio source passes a certain volume threshold
 
@@ -14,7 +14,7 @@
 - Right-click the source and select "Filters" from the context menu
 - In the effect filters panel inside the window that appears, click the plus (+) button
 - You should see the option for "user-defined shader" if you installed obs-shaderfilter
-- Select this option, and choose and name or leave the default name (user-defined shader)
+- Select this option, and choose a name or leave the default name (user-defined shader)
 - Now you should see more options appear on the right
 - Check the box labeled "Load shader from text file"
 - A new option will appear labeled "Shader text file"
@@ -24,8 +24,8 @@
 
 ## How to download a single file from GitHub
 
-- click the name of the file
-- click the icon with the downward arrow in the header of the source code panel
+- Click the name of the file
+- Click the icon with the downward arrow in the header of the source code panel (hover text "Download raw file").
 
 ## Audio Fade
 
