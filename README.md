@@ -9,7 +9,7 @@
 ## How to use
 
 - Install obs-shaderfilter
-- Copy the `.shader` file above to your computer
+- [Download](#How-to-download-a-single-file-from-GitHub) the `.shader` file above to your computer
 - In OBS, select the source or group you wish to apply the filter
 - Right-click the source and select "Filters" from the context menu
 - In the effect filters panel inside the window that appears, click the plus (+) button
@@ -22,7 +22,20 @@
 - Your filter is now applied! 
 - See below for details about how to set-up each specific effect
 
+## How to download a single file from GitHub
+
+- click the name of the file
+- click the icon with the downward arrow in the header of the source code panel
 
 ## Audio Fade
 
 Slowly fades a source in when an audio source passes a certain volume threshold
+
+### Shader Options
+
+These options appear when in the Filters window after loading the shader
+
+- Audio source - the source of the audio you wish to detect
+- Activation Threshold - The volume level to start fading in the source (0.2 -> 20%)
+- Fade In Rate - The rate to fade in the source (larger value is faster)
+- Fade Out Rate - The rate to fade out the source (larger value is faster)
