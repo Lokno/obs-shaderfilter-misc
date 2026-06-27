@@ -2,9 +2,10 @@
 
 ## About
 
-[obs-shaderfilter](https://obsproject.com/forum/resources/obs-shaderfilter.1736/) is a plugin for applying user-defined shaders to sources in OBS. This is a repository of shaders I've written.
+[obs-shaderfilter](https://obsproject.com/forum/resources/obs-shaderfilter.1736/) is a plugin for applying user-defined shaders to sources in OBS. This is a repository of shaders I've written. 
 
-- Audio Fade
+- [Audio Fade](#audio-fade) - Slowly fades in an OBS Source when an audio source passes a certain volume threshold
+
 ## How to use
 
 - Install obs-shaderfilter
