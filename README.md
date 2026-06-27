@@ -8,6 +8,8 @@
 
 ## How to use
 
+![Screenshot of the OBS Filters window](https://github.com/Lokno/obs-shaderfilter-misc/blob/main/images/filter_window.png)
+
 - Install obs-shaderfilter
 - [Download](#How-to-download-a-single-file-from-GitHub) the `.shader` file above to your computer
 - In OBS, select the source or group you wish to apply the filter
