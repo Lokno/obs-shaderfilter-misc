@@ -10,7 +10,7 @@
 
 ## How to use
 
-<img src="https://github.com/Lokno/obs-shaderfilter-misc/blob/main/images/filter_window.png" width="600"/>
+<img src="https://github.com/Lokno/obs-shaderfilter-misc/blob/main/images/filter_window.png" width="300"/>
 
 - Install obs-shaderfilter
 - [Download](#How-to-download-a-single-file-from-GitHub) the `.shader` file above to your computer
