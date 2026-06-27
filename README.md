@@ -10,7 +10,7 @@
 
 ## How to use
 
-<img src="https://github.com/Lokno/obs-shaderfilter-misc/blob/main/images/filter_window.png" width="300"/>
+<img src="https://github.com/Lokno/obs-shaderfilter-misc/blob/main/images/filter_window.png" width="600"/>
 
 - Install obs-shaderfilter
 - [Download](#How-to-download-a-single-file-from-GitHub) the `.shader` file above to your computer
@@ -46,7 +46,7 @@ These options appear when in the Filters window after loading the shader
 
 ## Wigglerize
 
-<img src="https://github.com/Lokno/obs-shaderfilter-misc/blob/main/images/lokno_wigglerized.png"/>
+<img src="https://github.com/Lokno/obs-shaderfilter-misc/blob/main/images/lokno_wigglerized.png" width="300"/>
 
 Slowly freezes the pixels of a source from right to left. Restarts when made visible
 
