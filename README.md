@@ -5,10 +5,12 @@
 [obs-shaderfilter](https://obsproject.com/forum/resources/obs-shaderfilter.1736/) is a plugin for applying user-defined shaders to sources in OBS. This is a repository of shaders I've created.
 
 - [Audio Fade](#audio-fade) - Slowly fades in an OBS Source when an audio source passes a certain volume threshold
+- [Wigglerize](#wigglerize) - Slowly freezes the pixels of a source from right to left. Restarts when made visible
+- [Scanner Line](#scanner-line) - Slowly moves a vertical line across a source from right to left.
 
 ## How to use
 
-![Screenshot of the OBS Filters window](https://github.com/Lokno/obs-shaderfilter-misc/blob/main/images/filter_window.png)
+<img src="https://github.com/Lokno/obs-shaderfilter-misc/blob/main/images/filter_window.png" width="600"/>
 
 - Install obs-shaderfilter
 - [Download](#How-to-download-a-single-file-from-GitHub) the `.shader` file above to your computer
@@ -41,3 +43,23 @@ These options appear when in the Filters window after loading the shader
 - Activation Threshold - The volume level to start fading in the source (0.2 -> 20%)
 - Fade In Rate - The rate to fade in the source (larger value is faster)
 - Fade Out Rate - The rate to fade out the source (larger value is faster)
+
+## Wigglerize
+
+<img src="https://github.com/Lokno/obs-shaderfilter-misc/blob/main/images/lokno_wigglerized.png"/>
+
+Slowly freezes the pixels of a source from right to left. Restarts when made visible
+
+### Shader Options
+
+- Speed - speed of the scan 
+
+## Scanner Line
+
+Slowly moves a vertical line across a source from right to left. Meant to be paired with Wigglerize
+
+### Shader Options
+
+- Speed - speed of the scan 
+- Line Thickness - thickness of the scan line
+- Line Color - color of the scan line
